@@ -1,0 +1,8 @@
+farm-haystack[elasticsearch]
+transformers
+requests
+beautifulsoup4
+regex
+elasticsearch
+faiss-cpu
+newsapi-python
