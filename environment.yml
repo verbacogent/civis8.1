@@ -5,7 +5,7 @@ dependencies:
   - python=3.8
   - pip
   - pip:
-      - farm-haystack[elasticsearch]  # Install the latest version of Haystack
+      - farm-haystack[elasticsearch]==2.0.0  # Installing Haystack version 2.x
       - transformers
       - requests
       - beautifulsoup4
