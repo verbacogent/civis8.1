@@ -5,7 +5,7 @@ dependencies:
   - python=3.8
   - pip
   - pip:
-      - farm-haystack[elasticsearch]
+      - farm-haystack[elasticsearch]==0.11.0  # Specific version of Haystack that includes GenerativeQAPipeline
       - transformers
       - requests
       - beautifulsoup4
