@@ -1,0 +1,15 @@
+name: claim-verification
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - farm-haystack[elasticsearch]
+      - transformers
+      - requests
+      - beautifulsoup4
+      - regex
+      - elasticsearch
+      - faiss-cpu
+      - newsapi-python
